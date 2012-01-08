@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb/dvb-usb/dvb-usb-umt-010.ko := mipsel-oe-linux-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o drivers/media/dvb/dvb-usb/dvb-usb-umt-010.ko drivers/media/dvb/dvb-usb/dvb-usb-umt-010.o drivers/media/dvb/dvb-usb/dvb-usb-umt-010.mod.o

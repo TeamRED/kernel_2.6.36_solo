@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rt2860/rt2860sta.ko := mipsel-oe-linux-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o drivers/net/wireless/rt2860/rt2860sta.ko drivers/net/wireless/rt2860/rt2860sta.o drivers/net/wireless/rt2860/rt2860sta.mod.o

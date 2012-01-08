@@ -1,0 +1,1 @@
+cmd_net/bluetooth/rfcomm/rfcomm.o := mipsel-unknown-linux-gnu-ld  -m elf32ltsmip   -r -o net/bluetooth/rfcomm/rfcomm.o net/bluetooth/rfcomm/core.o net/bluetooth/rfcomm/sock.o net/bluetooth/rfcomm/tty.o 

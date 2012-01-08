@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/bcm203x.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/kernel_2.6.36/scripts/module-common.lds --build-id  -o drivers/bluetooth/bcm203x.ko drivers/bluetooth/bcm203x.o drivers/bluetooth/bcm203x.mod.o

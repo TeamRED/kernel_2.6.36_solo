@@ -1,0 +1,2 @@
+kernel/drivers/media/dvb/ttusb-dec/ttusb_dec.ko
+kernel/drivers/media/dvb/ttusb-dec/ttusbdecfe.ko

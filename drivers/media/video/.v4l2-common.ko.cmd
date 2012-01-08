@@ -1,0 +1,1 @@
+cmd_drivers/media/video/v4l2-common.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/kernel_2.6.36/scripts/module-common.lds --build-id  -o drivers/media/video/v4l2-common.ko drivers/media/video/v4l2-common.o drivers/media/video/v4l2-common.mod.o

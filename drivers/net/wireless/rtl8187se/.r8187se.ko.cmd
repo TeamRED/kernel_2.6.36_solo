@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rtl8187se/r8187se.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o drivers/net/wireless/rtl8187se/r8187se.ko drivers/net/wireless/rtl8187se/r8187se.o drivers/net/wireless/rtl8187se/r8187se.mod.o

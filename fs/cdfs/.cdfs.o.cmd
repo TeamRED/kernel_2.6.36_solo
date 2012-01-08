@@ -1,0 +1,1 @@
+cmd_fs/cdfs/cdfs.o := mipsel-oe-linux-ld  -m elf32ltsmip   -r -o fs/cdfs/cdfs.o fs/cdfs/root.o fs/cdfs/audio.o fs/cdfs/cdXA.o fs/cdfs/cddata.o fs/cdfs/hfs.o fs/cdfs/iso.o fs/cdfs/proc.o fs/cdfs/utils.o fs/cdfs/daemon.o fs/cdfs/discid.o fs/cdfs/toc.o 

@@ -1,0 +1,1 @@
+cmd_arch/mips/built-in.o :=  mipsel-oe-linux-ld  -m elf32ltsmip   -r -o arch/mips/built-in.o arch/mips/brcmstb/built-in.o arch/mips/kernel/built-in.o arch/mips/mm/built-in.o arch/mips/math-emu/built-in.o 

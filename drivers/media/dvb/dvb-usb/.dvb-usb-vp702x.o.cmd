@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb/dvb-usb/dvb-usb-vp702x.o := mipsel-oe-linux-ld  -m elf32ltsmip   -r -o drivers/media/dvb/dvb-usb/dvb-usb-vp702x.o drivers/media/dvb/dvb-usb/vp702x.o drivers/media/dvb/dvb-usb/vp702x-fe.o 

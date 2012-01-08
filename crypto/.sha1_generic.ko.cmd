@@ -1,0 +1,1 @@
+cmd_crypto/sha1_generic.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/kernel_2.6.36/scripts/module-common.lds --build-id  -o crypto/sha1_generic.ko crypto/sha1_generic.o crypto/sha1_generic.mod.o

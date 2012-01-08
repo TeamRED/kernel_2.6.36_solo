@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb/dvb-usb/dvb-usb-dtt200u.o := mipsel-oe-linux-ld  -m elf32ltsmip   -r -o drivers/media/dvb/dvb-usb/dvb-usb-dtt200u.o drivers/media/dvb/dvb-usb/dtt200u.o drivers/media/dvb/dvb-usb/dtt200u-fe.o 

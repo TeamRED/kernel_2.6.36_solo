@@ -1,0 +1,1 @@
+cmd_crypto/built-in.o :=  mipsel-oe-linux-ld  -m elf32ltsmip   -r -o crypto/built-in.o crypto/crypto.o crypto/crypto_wq.o crypto/crypto_algapi.o crypto/aead.o crypto/crypto_blkcipher.o crypto/chainiv.o crypto/eseqiv.o crypto/crypto_hash.o crypto/pcompress.o crypto/cryptomgr.o crypto/deflate.o crypto/lzo.o crypto/rng.o crypto/krng.o 

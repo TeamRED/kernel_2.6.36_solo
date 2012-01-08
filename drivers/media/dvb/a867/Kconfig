@@ -1,0 +1,7 @@
+config DVB_A867
+	tristate "Avermedia A867 DVB receiver"
+	depends on DVB_CORE && USB && I2C && INPUT
+	help
+	  Choose Y or M here if you have a device containing an AS102
+
+	  To compile this driver as a module, choose M here

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libertas_tf/libertas_tf_usb.o := mipsel-unknown-linux-gnu-ld  -m elf32ltsmip   -r -o drivers/net/wireless/libertas_tf/libertas_tf_usb.o drivers/net/wireless/libertas_tf/if_usb.o 

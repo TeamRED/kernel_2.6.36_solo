@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/keyspan_pda.ko := mipsel-oe-linux-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o drivers/usb/serial/keyspan_pda.ko drivers/usb/serial/keyspan_pda.o drivers/usb/serial/keyspan_pda.mod.o

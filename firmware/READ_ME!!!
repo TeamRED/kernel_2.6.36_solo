@@ -1,0 +1,16 @@
+NOR memory partition mapping @17C00000
+10 partitions as follow:
+
+cfe  offset 00000000 size 512KB -> MTDPART0
+macadr offset 00080000 size 128KB -> MTDPART1
+nvram  offset 000A0000 size 128KB -> MTDPART2
+reserved  offset 000C0000 size 256KB -> MTDPART3
+data  offset 00100000 size 3072KB -> MTDPART4
+kernel  offset 00400000 size 4096KB -> MTDPART5
+rootfs  offset 00800000 size 122880KB -> MTDPART6
+system  offset 00000000 size 4096KB -> MTDPART7
+user  offset 00400000 size 126976KB -> MTDPART8
+all  offset 00000000 size 131072KB -> MTDPART9
+
+setenv as following:
+setenv -p STARTUP "ifconfig eth0 -auto; boot -z -elf flash0.kernel: 'rootfstype=jffs2 root=/dev/mtdblock6 rw"

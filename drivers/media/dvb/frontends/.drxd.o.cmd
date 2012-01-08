@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb/frontends/drxd.o := mipsel-unknown-linux-gnu-ld  -m elf32ltsmip   -r -o drivers/media/dvb/frontends/drxd.o drivers/media/dvb/frontends/drxd_firm.o drivers/media/dvb/frontends/drxd_hard.o 

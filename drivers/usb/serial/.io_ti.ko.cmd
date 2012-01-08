@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/io_ti.ko := mipsel-oe-linux-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o drivers/usb/serial/io_ti.ko drivers/usb/serial/io_ti.o drivers/usb/serial/io_ti.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/hostap/hostap.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/kernel_2.6.36/scripts/module-common.lds --build-id  -o drivers/net/wireless/hostap/hostap.ko drivers/net/wireless/hostap/hostap.o drivers/net/wireless/hostap/hostap.mod.o

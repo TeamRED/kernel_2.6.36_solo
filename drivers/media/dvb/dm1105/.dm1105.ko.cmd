@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb/dm1105/dm1105.ko := mipsel-oe-linux-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o drivers/media/dvb/dm1105/dm1105.ko drivers/media/dvb/dm1105/dm1105.o drivers/media/dvb/dm1105/dm1105.mod.o

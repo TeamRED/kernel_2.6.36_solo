@@ -1,0 +1,1 @@
+cmd_net/ipv6/xfrm6_mode_beet.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/kernel_2.6.36/scripts/module-common.lds --build-id  -o net/ipv6/xfrm6_mode_beet.ko net/ipv6/xfrm6_mode_beet.o net/ipv6/xfrm6_mode_beet.mod.o

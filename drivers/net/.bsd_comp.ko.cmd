@@ -1,0 +1,1 @@
+cmd_drivers/net/bsd_comp.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/kernel_2.6.36/scripts/module-common.lds --build-id  -o drivers/net/bsd_comp.ko drivers/net/bsd_comp.o drivers/net/bsd_comp.mod.o

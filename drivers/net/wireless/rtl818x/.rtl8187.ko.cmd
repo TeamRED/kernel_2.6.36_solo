@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rtl818x/rtl8187.ko := mipsel-oe-linux-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o drivers/net/wireless/rtl818x/rtl8187.ko drivers/net/wireless/rtl818x/rtl8187.o drivers/net/wireless/rtl818x/rtl8187.mod.o

@@ -1,0 +1,1 @@
+cmd_fs/ext3/ext3.ko := mipsel-oe-linux-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o fs/ext3/ext3.ko fs/ext3/ext3.o fs/ext3/ext3.mod.o

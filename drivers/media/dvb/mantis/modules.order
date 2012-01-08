@@ -1,0 +1,3 @@
+kernel/drivers/media/dvb/mantis/mantis_core.ko
+kernel/drivers/media/dvb/mantis/mantis.ko
+kernel/drivers/media/dvb/mantis/hopper.ko

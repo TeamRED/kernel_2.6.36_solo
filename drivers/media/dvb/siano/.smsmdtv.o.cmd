@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb/siano/smsmdtv.o := mipsel-unknown-linux-gnu-ld  -m elf32ltsmip   -r -o drivers/media/dvb/siano/smsmdtv.o drivers/media/dvb/siano/smscoreapi.o drivers/media/dvb/siano/sms-cards.o drivers/media/dvb/siano/smsendian.o drivers/media/dvb/siano/smsir.o 

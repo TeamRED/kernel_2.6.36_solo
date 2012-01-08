@@ -1,0 +1,1 @@
+cmd_drivers/media/video/tveeprom.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/kernel_2.6.36/scripts/module-common.lds --build-id  -o drivers/media/video/tveeprom.ko drivers/media/video/tveeprom.o drivers/media/video/tveeprom.mod.o

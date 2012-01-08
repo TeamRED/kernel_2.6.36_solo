@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath9k/ath9k_common.ko := mipsel-oe-linux-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o drivers/net/wireless/ath/ath9k/ath9k_common.ko drivers/net/wireless/ath/ath9k/ath9k_common.o drivers/net/wireless/ath/ath9k/ath9k_common.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rtl8192u/r8192u_usb.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/GIGA_KER/kernel_2.6.36_SOLO/scripts/module-common.lds --build-id  -o drivers/net/wireless/rtl8192u/r8192u_usb.ko drivers/net/wireless/rtl8192u/r8192u_usb.o drivers/net/wireless/rtl8192u/r8192u_usb.mod.o

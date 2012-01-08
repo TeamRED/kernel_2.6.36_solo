@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp_synctty.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/kernel_2.6.36/scripts/module-common.lds --build-id  -o drivers/net/ppp_synctty.ko drivers/net/ppp_synctty.o drivers/net/ppp_synctty.mod.o

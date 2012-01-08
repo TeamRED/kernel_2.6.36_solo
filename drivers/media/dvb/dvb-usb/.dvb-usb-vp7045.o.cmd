@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb/dvb-usb/dvb-usb-vp7045.o := mipsel-oe-linux-ld  -m elf32ltsmip   -r -o drivers/media/dvb/dvb-usb/dvb-usb-vp7045.o drivers/media/dvb/dvb-usb/vp7045.o drivers/media/dvb/dvb-usb/vp7045-fe.o 

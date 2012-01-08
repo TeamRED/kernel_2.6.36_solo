@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8187se/r8187se.ko := mipsel-unknown-linux-gnu-ld -r  -m elf32ltsmip -T /home/kajgan/Skrivebord/kernel_2.6.36/scripts/module-common.lds --build-id  -o drivers/staging/rtl8187se/r8187se.ko drivers/staging/rtl8187se/r8187se.o drivers/staging/rtl8187se/r8187se.mod.o

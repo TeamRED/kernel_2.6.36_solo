@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb/vtunerc/vtunerc.o := mipsel-oe-linux-ld  -m elf32ltsmip   -r -o drivers/media/dvb/vtunerc/vtunerc.o drivers/media/dvb/vtunerc/vtunerc_main.o drivers/media/dvb/vtunerc/vtunerc_ctrldev.o drivers/media/dvb/vtunerc/vtunerc_proxyfe.o 
